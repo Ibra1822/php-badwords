@@ -1,7 +1,7 @@
 <?php 
   
-$first = $_GET['firstText'];
-$second = $_GET['secondText'];
+$first = $_POST['firstText'];
+$second = $_POST['secondText'];
 
 ?>
 

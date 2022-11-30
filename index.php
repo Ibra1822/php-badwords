@@ -14,7 +14,7 @@
 <h1>Scrivi due Testi</h1>
 
 <div class="cont-form">
-  <form action="./result.php" method="GET" >
+  <form action="./result.php" method="POST" >
     <input type="text" name='firstText' >
     <input type="text" name='secondText' >
     <button type='submit'>Send</button>
