@@ -19,15 +19,15 @@ $second = $_GET['secondText'];
 <body>
 
 <h1>Risultato</h1>
+ 
 
-
-<h2> <?php echo $first.' '.strlen($first); ?> </h2>
-<h2> <?php echo $second.' '.strlen($second); ?> </h2>
+<h2> <?php echo'La prima parola è:'.' '. $first.' '.strlen($first); ?> </h2>
+<h2> <?php echo 'La seconda parola è:'.' '. $second.' '.strlen($second); ?> </h2>
 
 <hr>
 
-<h2> <?php echo $first.' '.strlen($first) ?> </h2>
-<h2><?php echo str_replace($first,'***',$second).' '. strlen($second) ?></h2>
+<h2> <?php echo 'La prima parola è:'.' '. $first.' '.strlen($first) ?> </h2>
+<h2><?php echo 'La seconda parola è:'.' '.  str_replace($first,'***',$second).' '. strlen($second) ?></h2>
 
 
 
